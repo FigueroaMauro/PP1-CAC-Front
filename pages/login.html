@@ -33,14 +33,16 @@
         
     
                 <div class="mb-3">
-                    <input type="email" class="form-control px-3" required placeholder="Email">
+                    <input type="email" class="form-control px-3" id="inp-email" required placeholder="Email">
                 </div>
+                <p class="validate" id="error-email"></p>
                 <div class="mb-3">
-                    <input type="password" class="form-control px-3" required placeholder="Contraseña">
+                    <input type="password" class="form-control px-3" id="inp-pass" required placeholder="Contraseña">
                 </div>
+                <p class="validate" id="error-pass"></p>
       
 
-                <button type="submit" class="btn btn-primary">Iniciar Sesión</button>
+                <button type="submit" class="btn btn-primary" id="btn-login">Iniciar Sesión</button>
                 <div > 
                     <a class="register" href="./register.html">Registrarse</a>
                 </div>
@@ -48,6 +50,7 @@
         </div>
     </main>
 
+    <script src="../js/login.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
