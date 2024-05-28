@@ -1,3 +1,4 @@
+
 let emailError = document.querySelector("#error-email");
 let passError = document.querySelector("#error-pass");
 
@@ -31,3 +32,7 @@ const cleanError = ()=>{
     emailError.innerHTML = "";
     passError.innerHTML = "";
 }
+
+
+
+
