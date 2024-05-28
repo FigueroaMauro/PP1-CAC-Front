@@ -322,10 +322,11 @@
 }
 
 @media screen and (max-width:560px) {
-.login{
+.header a{
+  font-size: .7rem;
   text-align: center;
-  font-size: .8rem;
 }
+
   .section-trends {
     .movies-container {
       .movies {

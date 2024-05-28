@@ -431,6 +431,11 @@ main {
 }
 
 @media screen and (max-width:560px) {
+
+  .header a{
+    font-size: .7rem;
+    text-align: center;
+  }
   .section-trends {
     .movies-container {
       .movies {
