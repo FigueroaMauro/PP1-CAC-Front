@@ -187,6 +187,12 @@
     }
   }
 
+  .arrow{
+    position: fixed;
+    bottom: 15px;
+    right: 10px;
+  }
+
   .footer {
     background-color: #9f3647;
     display: flex;
